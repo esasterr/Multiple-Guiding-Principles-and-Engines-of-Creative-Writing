@@ -1,0 +1,68 @@
+{
+  "nodes": [],
+  "debts": [],
+  "characters": [
+    {
+      "name": "Luther",
+      "traits": ["Kan Vampiri", "Telepatik", "Sakin"],
+      "secrets": ["Zihin okuma (telepati) yeteneğine sahiptir. Sıradan insan kanının kokusundan hoşlanmaz."],
+      "relationships": {}
+    },
+    {
+      "name": "Sebastian",
+      "traits": ["Kan Vampiri", "Görü Yaratıcı", "Stratejik"],
+      "secrets": ["Zihinlerde illüzyon ve görüler yaratma yeteneğine sahiptir."],
+      "relationships": {}
+    },
+    {
+      "name": "Alejandro",
+      "traits": ["Kan Vampiri", "Telekinezi Uzmanı", "Kuvvetli"],
+      "secrets": ["Eşyaları ve nesneleri fiziksel temas kurmadan zihniyle hareket ettirebilir."],
+      "relationships": {}
+    },
+    {
+      "name": "Owen",
+      "traits": ["Kan Vampiri", "Duygu Manipülatörü", "Gözlemci"],
+      "secrets": ["Çevresindeki kişilerin duygularını doğrudan kontrol edip yönlendirebilir."],
+      "relationships": {}
+    },
+    {
+      "name": "Cassandra",
+      "traits": ["Kan Vampiri", "Zihin Kontrolörü", "Soy Lideri"],
+      "secrets": ["Zihinleri tamamen kontrol eder. Güneşe çıkmayı sağlayan Kanlı Çiçek tılsımının özel tarifine sahip tek kişidir."],
+      "relationships": {}
+    },
+    {
+      "name": "Kaitlyn",
+      "traits": ["İnsan", "Cassandra Soyu", "Sezgisel"],
+      "secrets": ["Cassandra'nın soyundan gelmektedir. İnsan durumundayken Cassandra'nın zihnine sızarak geçmişe dair görüler görür ancak bunları kabus sanır."],
+      "relationships": {}
+    }
+  ],
+  "lore_rules": [
+    {
+      "rule_id": "rule_1",
+      "description": "Evrende toplam 9 farklı vampir türü vardır. Güneşe çıkabilen TEK tür Kan Vampirleridir, o da yalnızca Cassandra'nın özel tarifli Kanlı Çiçek tılsımı ile mümkündür. Diğer 8 vampir türü kesinlikle güneşe çıkamaz."
+    },
+    {
+      "rule_id": "rule_2",
+      "description": "Dönüşüm Kuralı: Vampirler sadece ısırarak insanı dönüştüremez. Isırılan kişinin, vampirin zehriyle birleşen kendi kanını içmesi şarttır."
+    },
+    {
+      "rule_id": "rule_3",
+      "description": "Yetki ve Güç Ayrımı: Kan Vampirlerinin yetkileri sabittir; Luther (Telepati), Sebastian (Görüler gördürme), Alejandro (Telekinezi), Owen (Duygu kontrolü), Cassandra (Zihin kontrolü). Bir vampir başka bir vampirin özel yeteneğini kullanamaz."
+    },
+    {
+      "rule_id": "rule_4",
+      "description": "Fiziksel Özellikler ve Güneş Etkisi: Kan Vampirleri güneşte ASLA parlamaz ve bronzlaşmaz. Güneşe çıktıklarında damarları belirginleşir ve hastalıklı bir görünüme bürünürler. Gece ay enerjisi güçlerini artırır."
+    },
+    {
+      "rule_id": "rule_5",
+      "description": "Kan ve Beslenme Kuralı: Kan Vampirleri sıradan insan kanının kokusundan hoşlanmaz ve dökülen insan kanına tepki vermezler. Yalnızca Cassandra'nın soyundan gelenlerin kanını içerler."
+    },
+    {
+      "rule_id": "rule_6",
+      "description": "Kaitlyn Bağlantı Kuralı: Kaitlyn insan durumundayken uykusunda Cassandra'nın zihnine sızarak geçmiş görüler görür (kabus zanneder). Vampir olduğunda rüyalarla Kan Vampirleriyle iletişim kurar."
+    }
+  ]
+}
