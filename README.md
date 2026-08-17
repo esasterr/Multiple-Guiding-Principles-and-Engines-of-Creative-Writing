@@ -133,7 +133,7 @@ Copy `.env.example` to `.env` and add your Google Gemini API key:
 Edit `.env`:
 ```env
    GEMINI\_API\_KEY="your-google-gemini-api-key-here"
-   GEMINI\_MODEL="gemini-1.5-flash"
+   GEMINI\_MODEL="gemini-2.5-flash"
    ```
 Launch the Application:
 ```bash
